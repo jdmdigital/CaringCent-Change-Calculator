@@ -205,14 +205,14 @@ if(!function_exists('get_ccalc_option')) {
 			
 			
 			case 'minify-css':
-				if(isset($performanceoptions['ccalc_checkbox_field_css']) && $options['ccalc_checkbox_field_css'] == 1) {
+				if(isset($performanceoptions['ccalc_checkbox_field_css']) && $performanceoptions['ccalc_checkbox_field_css'] == 1) {
 					return true;
 				} else {
 					return false;
 				}
 			break;
 			case 'minify-js':
-				if(isset($performanceoptions['ccalc_checkbox_field_js']) && $options['ccalc_checkbox_field_js'] == 1) {
+				if(isset($performanceoptions['ccalc_checkbox_field_js']) && $performanceoptions['ccalc_checkbox_field_js'] == 1) {
 					return true;
 				} else {
 					return false;
