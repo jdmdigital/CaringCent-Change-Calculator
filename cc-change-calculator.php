@@ -28,6 +28,14 @@ if(!function_exists('ccalc_get_version')) {
 	}
 }
 
+add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'ccalc_plugin_action_links' );
+function ccalc_plugin_action_links( $links ) {
+   $links[] = '<a href="'. esc_url( get_admin_url(null, 'options-general.php?page=ccalc-plugin') ) .'">Settings</a>';
+   $links[] = '<a href="https://github.com/jdmdigital/CaringCent-Change-Calculator" target="_blank">GitHub</a>';
+   //$links[] = '<a href="http://jdmdigital.co" target="_blank">JDM Digital</a>';
+   return $links;
+}
+
 /* == Plugin Options
  * @since v0.2
  */

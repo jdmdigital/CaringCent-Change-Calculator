@@ -27,6 +27,12 @@ For advanced installation instructions, please see: https://github.com/jdmdigita
 
 == Changelog ==
 
+= 0.4 =
+* GitHub repo created
+* Performance improvements
+* Optimize CSS
+* Bug Fixes
+
 = 0.3 =
 * Options panel added.
 

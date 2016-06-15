@@ -39,6 +39,12 @@ Once that's done, here's how to install this plugin:
 
 ## Changelog
 
+**0.4**
+* GitHub repo created
+* Performance improvements
+* Optimize CSS
+* Bug Fixes
+
 **0.3**
 * Options panel added.
 
