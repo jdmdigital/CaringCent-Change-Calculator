@@ -1,4 +1,4 @@
-/* CaringCent Change Calculator CSS - v0.3 */
+/* CaringCent Change Calculator CSS - v0.4 */
 
 #changecalc{}
 .row{width:100%;}
@@ -82,7 +82,6 @@
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #333;
   text-decoration: none;
 }
 .btn:active,
