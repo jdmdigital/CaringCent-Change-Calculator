@@ -39,9 +39,11 @@ Once that's done, here's how to install this plugin:
 
 ## Changelog
 
+**0.6**
+* Tests and Bug Fixes
+
 **0.5**
 * Add uninstallation
-* Tests and Bug Fixes
 
 **0.4**
 * GitHub repo created

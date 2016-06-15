@@ -4,7 +4,7 @@ Donate link: http://jdmdigital.co
 Tags: calculator, shortcodes.
 Requires at least: 4.0.1
 Tested up to: 4.5.3
-Stable tag: 0.4
+Stable tag: 0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,9 +27,11 @@ For advanced installation instructions, please see: https://github.com/jdmdigita
 
 == Changelog ==
 
+= 0.6 = 
+* Tests and Bug Fixes
+
 = 0.5 =
 * Add uninstallation
-* Tests and Bug Fixes
 
 = 0.4 =
 * GitHub repo created

@@ -450,7 +450,7 @@ function ccalc_performance_settings_section_callback(  ) {
 function ccalc_options_page(  ) { 
 	?>
 	<div id="calc-page" class="wrap">
-		<h1>CaringCent Change Calculator</h1>
+		<h1>CaringCent Change Calculator <small style="color:#707070">v<?php echo ccalc_get_version('strver'); ?></small></h1>
 		<p>To use the Change Calculator, simply paste the shortcode below anywhere in the page or post editor where you'd like it displayed.  More information in the <a href="https://github.com/jdmdigital/CaringCent-Change-Calculator/" target="_blank">GitHub README</a>, if you're feeling nerdy.  Otherwise, it should be fairly self-explanatory.</p>
 		<table class="form-table" style="margin-bottom:60px;">
 			<tr>
@@ -465,6 +465,7 @@ function ccalc_options_page(  ) {
 			submit_button();
 			?>
 		</form>
+
 	</div>
 	<?php
 }
