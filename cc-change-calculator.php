@@ -47,7 +47,7 @@ if(!function_exists('ccalc_enqueued_assets')) {
 		if(get_ccalc_option('minify-css')) {
 			wp_register_style( 'caringcent-calc', plugin_dir_url( __FILE__ ) . 'css/caringcent-calc.min.css', array(), null );
 		} else {
-			wp_register_style( 'caringcent-calc', plugin_dir_url( __FILE__ ) . 'css/caringcent-calc.css', array(), ccalc_get_version('strver') );
+			wp_register_style( 'caringcent-calc', plugin_dir_url( __FILE__ ) . 'css/caringcent-calc.css', array(), ccalc_get_version() );
 		}
 		wp_enqueue_style(  'caringcent-calc');
 
@@ -55,7 +55,7 @@ if(!function_exists('ccalc_enqueued_assets')) {
 		if(get_ccalc_option('minify-js')) {
 			wp_register_script('caringcent-calc', plugin_dir_url( __FILE__ ) . 'js/caringcent-calc.min.js', array( 'jquery' ), null, true);
 		} else {
-			wp_register_script('caringcent-calc', plugin_dir_url( __FILE__ ) . 'js/caringcent-calc.js', array( 'jquery' ), ccalc_get_version('strver'),true);
+			wp_register_script('caringcent-calc', plugin_dir_url( __FILE__ ) . 'js/caringcent-calc.js', array( 'jquery' ), ccalc_get_version(),true);
 		}
 		wp_enqueue_script( 'jquery');
 		wp_enqueue_script( 'caringcent-calc');
