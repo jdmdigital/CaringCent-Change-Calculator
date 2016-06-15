@@ -6,8 +6,6 @@ Sometimes seeing is believing.  This standalone plugin as built to display the C
 
 We created a quick and dirty demo using the default WordPress theme here: http://bootplate.jdmdigital.co/fab-demo/change-calculator-demo/  It's not the prettiest, but you'll get the idea.
 
-A more in-depth guide is available on JDM Labs at:
-
 ## Basic Installation
 1. Upload the plugin directory to /wp-content/plugins/
 2. Go to Plugins from the admin

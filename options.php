@@ -420,7 +420,6 @@ function ccalc_textarea_after_render( ) {
 function ccalc_checkbox_field_css_render(  ) { 
 	$options = get_option( 'ccalc_performance_settings' );
 	if(isset($options['ccalc_checkbox_field_css']) && $options['ccalc_checkbox_field_css'] == 1) {$ccalc_checkbox_field_css_check = true;} else {$ccalc_checkbox_field_css_check = false;}
-	//if(get_option('ccalc_checkbox_field_js', 1) == 1 ){$ccalc_checkbox_field_js_check = true;} else {$ccalc_checkbox_field_js_check = false;}
 	?>
 	<input type='checkbox' id="ccalc_performance_settings[ccalc_checkbox_field_css]" name='ccalc_performance_settings[ccalc_checkbox_field_css]' <?php if ($ccalc_checkbox_field_css_check) echo 'checked="checked"'; ?> value='1'>
 	<label for="ccalc_checkbox_field_js">Yes</label>
@@ -429,7 +428,6 @@ function ccalc_checkbox_field_css_render(  ) {
 function ccalc_checkbox_field_js_render(  ) { 
 	$options = get_option( 'ccalc_performance_settings' );
 	if(isset($options['ccalc_checkbox_field_js']) && $options['ccalc_checkbox_field_js'] == 1) {$ccalc_checkbox_field_js_check = true;} else {$ccalc_checkbox_field_js_check = false;}
-	//if(get_option('ccalc_checkbox_field_js', 1) == 1 ){$ccalc_checkbox_field_js_check = true;} else {$ccalc_checkbox_field_js_check = false;}
 	?>
 	<input type='checkbox' id="ccalc_performance_settings[ccalc_checkbox_field_js]" name='ccalc_performance_settings[ccalc_checkbox_field_js]' <?php if ($ccalc_checkbox_field_js_check) echo 'checked="checked"'; ?> value='1'>
 	<label for="ccalc_checkbox_field_js">Yes</label>
@@ -450,7 +448,7 @@ function ccalc_performance_settings_section_callback(  ) {
 function ccalc_options_page(  ) { 
 	?>
 	<div id="calc-page" class="wrap">
-		<h1>CaringCent Change Calculator <small style="color:#707070">v<?php echo ccalc_get_version(); ?></small></h1>
+		<h1>CaringCent Change Calculator <small style="color:#888">v<?php echo ccalc_get_version(); ?></small></h1>
 		<p>To use the Change Calculator, simply paste the shortcode below anywhere in the page or post editor where you'd like it displayed.  More information in the <a href="https://github.com/jdmdigital/CaringCent-Change-Calculator/" target="_blank">GitHub README</a>, if you're feeling nerdy.  Otherwise, it should be fairly self-explanatory.</p>
 		<table class="form-table" style="margin-bottom:60px;">
 			<tr>
