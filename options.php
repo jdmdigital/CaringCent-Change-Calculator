@@ -12,7 +12,6 @@ function ccalc_add_admin_menu(  ) {
 function ccalc_settings_init(  ) { 
 	register_setting( 'ccalc_plugin_page', 'ccalc_settings' );
 	register_setting( 'ccalc_plugin_page', 'ccalc_performance_settings' );
-	//register_setting( 'pluginPage', 'ccalc_settings' );
 
 	// Global Settings
 	add_settings_section(
@@ -21,14 +20,6 @@ function ccalc_settings_init(  ) {
 		'ccalc_settings_section_callback', 
 		'ccalc_plugin_page'
 	);
-
-	/*add_settings_field( 
-		'ccalc_text_field_1', 
-		__( 'Text field 1', 'caringcent' ), 
-		'ccalc_text_field_1_render', 
-		'ccalc_plugin_page', 
-		'ccalc_ccalc_plugin_page_section' 
-	);*/
 	
 	add_settings_field( 
 		'ccalc_accentcolor', 

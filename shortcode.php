@@ -25,8 +25,8 @@ if(!function_exists('ccalc_changecalculator_shortcode') && !shortcode_exists('ch
 			'label_process' 		=> '',
 			'num_process' 			=> '',
 			'desc_process'			=> '',
-			'yearonetext' 			=> 'We don\'t want to oversell you. This estimate is based on a very conservative monthly roll-up to the year end usage percentage you provided.',
-			'futureyearstext'		=> 'This estimate is very conservative and assumes you add no new donors to your CaringCent program in future years--which is unlikely.',
+			'yearonetext' 			=> '',
+			'futureyearstext'		=> '',
 		), $atts ) );
 		
 		//$options = get_option( 'ccalc_settings' );

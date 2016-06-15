@@ -27,6 +27,10 @@ For advanced installation instructions, please see: https://github.com/jdmdigita
 
 == Changelog ==
 
+= 0.5 =
+* Add uninstallation
+* Tests and Bug Fixes
+
 = 0.4 =
 * GitHub repo created
 * Performance improvements
