@@ -3,7 +3,7 @@
  * Plugin Name: CaringCent Change Calculator
  * Plugin URI: http://bootplate.jdmdigital.co/fab-demo/change-calculator-demo/ 
  * Description: Custom standalone plugin which creates the <code>[changecalculator]</code> shortcode for displaying the CaringCent Change Calculator.
- * Version: 0.6
+ * Version: 0.7
  * Author: JDM Digital
  * Author URI: http://jdmdigital.co
  * License: GPLv2 or later
@@ -11,7 +11,7 @@
  
 // Plugin Shortname is ccalc_
 if (!defined('CCALC_VERSION'))
-	define('CCALC_VERSION', 0.6);
+	define('CCALC_VERSION', 0.7);
 
 if (!defined('CCALC_PLUGIN_DIR'))
     define('CCALC_PLUGIN_DIR', untrailingslashit(dirname(__FILE__)));

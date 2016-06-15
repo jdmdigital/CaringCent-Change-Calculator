@@ -237,14 +237,14 @@ function ccalc_accentcolor_render(  ) {
 function ccalc_yearone_render( ) {
 	$options = get_option( 'ccalc_settings' );
 	?>
-	<textarea cols='37' rows='3' id="ccalc_settings[ccalc_yearone]" name='ccalc_settings[ccalc_yearone]' placeholder="We don't want to oversell you. This estimate is based on a very conservative monthly roll-up to the year end usage percentage you provided."><?php if(isset($options['ccalc_yearone'])) { echo trim($options['ccalc_yearone'], 'HdWr'); } ?></textarea>
+	<textarea cols='37' rows='3' id="ccalc_settings[ccalc_yearone]" name='ccalc_settings[ccalc_yearone]' placeholder="We don't want to oversell you. This estimate is based on a very conservative monthly roll-up to the year end usage percentage you provided."><?php if(isset($options['ccalc_yearone'])) { echo $options['ccalc_yearone']; } ?></textarea>
 	<p class="description"><?php echo __( 'Description shown below Year One Raised on the right.', 'caringcent' ); ?></p>
 	<?php
 }
 function ccalc_futureyears_render( ) {
 	$options = get_option( 'ccalc_settings' );
 	?>
-	<textarea cols='37' rows='3' id="ccalc_settings[ccalc_futureyears]" name='ccalc_settings[ccalc_futureyears]' placeholder="This estimate is very conservative and assumes you add no new donors to your CaringCent program in future years--which is unlikely."><?php if(isset($options['futureyears'])) { echo trim($options['futureyears'], 'HdWr'); } ?></textarea>
+	<textarea cols='37' rows='3' id="ccalc_settings[ccalc_futureyears]" name='ccalc_settings[ccalc_futureyears]' placeholder="This estimate is very conservative and assumes you add no new donors to your CaringCent program in future years--which is unlikely."><?php if(isset($options['ccalc_futureyears'])) { echo $options['ccalc_futureyears']; } ?></textarea>
 	<p class="description group-end"><?php echo __( 'Description shown below Future Years on the right.', 'caringcent' ); ?></p>
 	<?php
 }
@@ -283,7 +283,7 @@ function ccalc_newlabel_render(  ) {
 function ccalc_newnumber_render(  ) { 
 	$options = get_option( 'ccalc_settings' );
 	?>
-	<input type='number' class='regular-text' name='ccalc_settings[ccalc_newnumber]' value='<?php if(isset($options['ccalc_newnumber'])) echo $options['ccalc_newnumber']; ?>' placeholder="2000">
+	<input type='number' class='regular-text' name='ccalc_settings[ccalc_newnumber]' value='<?php if(isset($options['ccalc_newnumber'])) echo $options['ccalc_newnumber']; ?>' placeholder="0">
 	<p class="description"><?php echo __( 'The default value (number) for possible new donors.', 'caringcent' ); ?></p>
 	<?php
 }
@@ -450,7 +450,7 @@ function ccalc_performance_settings_section_callback(  ) {
 function ccalc_options_page(  ) { 
 	?>
 	<div id="calc-page" class="wrap">
-		<h1>CaringCent Change Calculator <small style="color:#707070">v<?php echo ccalc_get_version('strver'); ?></small></h1>
+		<h1>CaringCent Change Calculator <small style="color:#707070">v<?php echo ccalc_get_version(); ?></small></h1>
 		<p>To use the Change Calculator, simply paste the shortcode below anywhere in the page or post editor where you'd like it displayed.  More information in the <a href="https://github.com/jdmdigital/CaringCent-Change-Calculator/" target="_blank">GitHub README</a>, if you're feeling nerdy.  Otherwise, it should be fairly self-explanatory.</p>
 		<table class="form-table" style="margin-bottom:60px;">
 			<tr>
