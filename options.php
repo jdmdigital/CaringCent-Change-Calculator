@@ -447,12 +447,12 @@ function ccalc_checkbox_field_js_render(  ) {
 
 
 function ccalc_settings_section_callback(  ) { 
-	echo '<p>'. __( 'Use these settings to set the global defaults.  You can overwrite these using <a href="#" target="_blank">shortcode arguments</a>.', 'caringcent' ).'</p>';
+	echo '<p>'. __( 'Use these settings to set the global defaults.  You can overwrite these using shortcode arguments, or just asking <a href="http://jdmdigital.co/beer" target="_blank" rel="nofollow">Justin Downey</a>.', 'caringcent' ).'</p>';
 	echo '<style>.form-table th{padding-top:15px;}.form-table td{padding-top:7px; padding-bottom:5px;} .form-table td p.group-end{margin-bottom:35px;}</style>';
 }
 
 function ccalc_performance_settings_section_callback(  ) { 
-	echo '<p>'. __( 'Fast loading speed matters. Here are some performance optimization settings (for advanced users).', 'caringcent' ).'</p>';
+	echo '<p>'. __( 'Fast loading speed matters. Here are some performance optimization settings (for advanced users).  Check both of these for maximum speed!', 'caringcent' ).'</p>';
 }
 
 
@@ -460,7 +460,7 @@ function ccalc_options_page(  ) {
 	?>
 	<div id="calc-page" class="wrap">
 		<h1>CaringCent Change Calculator</h1>
-		<p>To use the Change Calculator, simply paste the shortcode anywhere in the page or post editor where you'd like it displayed.  More information in the <a href="#" target="_blank">online documentation</a>.</p>
+		<p>To use the Change Calculator, simply paste the shortcode below anywhere in the page or post editor where you'd like it displayed.  More information in the <a href="https://github.com/jdmdigital/CaringCent-Change-Calculator/" target="_blank">GitHub README</a>, if you're feeling nerdy.  Otherwise, it should be fairly self-explanatory.</p>
 		<table class="form-table" style="margin-bottom:60px;">
 			<tr>
 				<th scope="row">Copy &amp; Paste Shortcode:</th>

@@ -27,7 +27,7 @@ Once that's done, here's how to install this plugin:
 
 1. Go to Settings >> GitHub Updater
 2. Click the Install Plugin tab
-3. Enter the GitHub Repo URL: TBD
+3. Enter the GitHub Repo URL: https://github.com/jdmdigital/CaringCent-Change-Calculator
 4. Leave the Branch blank (we want it to default to "master")
 5. Make sure the Remote host is set to "GitHub"
 6. Click the "Install Plugin" button

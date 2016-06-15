@@ -4,7 +4,7 @@ Donate link: http://jdmdigital.co
 Tags: calculator, shortcodes.
 Requires at least: 4.0.1
 Tested up to: 4.5.3
-Stable tag: 0.3
+Stable tag: 0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,8 +15,6 @@ Sometimes seeing is believing.  This standalone plugin as built to display the C
 
 We created a quick and dirty demo using the default WordPress theme here: http://bootplate.jdmdigital.co/fab-demo/change-calculator-demo/  It's not the prettiest, but you'll get the idea.
 
-A more in-depth guide is available on JDM Labs at: 
-
 == Installation ==
 1. Upload the plugin directory to /wp-content/plugins/
 2. Go to Plugins from the admin
@@ -24,6 +22,8 @@ A more in-depth guide is available on JDM Labs at:
 4. Go to Settings >> Change Calc to set global settings (or leave default)
 5. Place the shortcode, <code>[changecalculator]</code> wherever. 
 6. Update the page or post where you want the calculator displayed.
+
+For advanced installation instructions, please see: https://github.com/jdmdigital/CaringCent-Change-Calculator
 
 == Changelog ==
 
