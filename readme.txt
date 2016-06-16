@@ -3,8 +3,8 @@ Contributors: jdm-labs
 Donate link: http://jdmdigital.co
 Tags: calculator, shortcodes.
 Requires at least: 4.0.1
-Tested up to: 4.5.3
-Stable tag: 0.7
+Tested up to: 4.5.4
+Stable tag: 0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,11 @@ We created a quick and dirty demo using the default WordPress theme here: http:/
 For advanced installation instructions, please see: https://github.com/jdmdigital/CaringCent-Change-Calculator
 
 == Changelog ==
+
+= 0.8 = 
+* Issue Fixes
+* Updated CSS
+* Ready for Production testing
 
 = 0.6 = 
 * Tests and Bug Fixes
