@@ -37,6 +37,10 @@ Once that's done, here's how to install this plugin:
 
 ## Changelog
 
+**1.1**
+* CSS Edits
+* Production Testing Complete
+
 **0.9**
 * Issue Fixes
 * Updated CSS
