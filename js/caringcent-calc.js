@@ -1,5 +1,5 @@
 /* 
- * CaringCent Change Calculator JS - v0.9
+ * CaringCent Change Calculator JS - v1.0
  * Includes: animateNumber v 0.0.13, and jQuery Percentage
  */
  
