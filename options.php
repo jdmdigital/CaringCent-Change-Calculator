@@ -228,7 +228,7 @@ function ccalc_settings_init(  ) {
 function ccalc_accentcolor_render(  ) { 
 	$options = get_option( 'ccalc_settings' );
 	?>
-	<input type='text' class='regular-text' name='ccalc_settings[ccalc_accentcolor]' value='<?php if(isset($options['ccalc_accentcolor'])) echo $options['ccalc_accentcolor']; ?>' placeholder="#0171bc">
+	<input type='text' class='regular-text' name='ccalc_settings[ccalc_accentcolor]' value='<?php if(isset($options['ccalc_accentcolor'])) echo $options['ccalc_accentcolor']; ?>' placeholder="#0092ae">
 	<p class="description group-end"><?php echo __( 'The accent color (in hexidecimal) or leave blank to use the default.', 'caringcent' ); ?></p>
 	<?php
 }

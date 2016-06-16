@@ -10,7 +10,7 @@ if(!function_exists('get_ccalc_option')) {
 		
 		switch ($option) {
 			case 'style':
-				if(isset($options['ccalc_accentcolor']) && $options['ccalc_accentcolor'] != strtolower('#0171bc')) {
+				if(isset($options['ccalc_accentcolor']) && $options['ccalc_accentcolor'] != strtolower('#0092ae')) {
 					return '<style>.text-primary{color:'.$options['ccalc_accentcolor'].'} .btn-primary, .question-circle{opacity:1; background-color:'.$options['ccalc_accentcolor'].'; border-color:'.$options['ccalc_accentcolor'].';}.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .question-circle:hover, .question-circle:focus, .question-circle:active{opacity:0.8; color:#eee; background-color:'.$options['ccalc_accentcolor'].'; border-color:'.$options['ccalc_accentcolor'].'; transition:0.2s; -webkit-transition:0.2s;}</style>';
 				} else {
 					return ''; // nada
