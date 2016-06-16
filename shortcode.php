@@ -154,8 +154,8 @@ if(!function_exists('ccalc_changecalculator_shortcode') && !shortcode_exists('ch
 							</div>
 						</div>
 					</div>
-					<div class="clearfix">
-						<button class="btn btn-sm btn-default btn-dark pull-right" id="resetrecalc">Reset</button><button class="btn btn-sm btn-primary pull-left" id="showassumptions">Show Assumptions</button>
+					<div class="clearfixer">
+						<button class="btn btn-sm btn-default btn-dark pull-right" id="resetrecalc">Reset</button><button class="btn btn-sm btn-primary pull-right" id="showassumptions">Show Assumptions</button>
 					</div>
 				</form>
 			</div>
