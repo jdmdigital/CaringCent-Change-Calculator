@@ -37,6 +37,11 @@ Once that's done, here's how to install this plugin:
 
 ## Changelog
 
+**1.3**
+* Fix bug #19: https://github.com/jdmdigital/CaringCent-Change-Calculator/issues/19
+* READMEs Update
+* Version Bump for automatic update
+
 **1.1 and 1.2**
 * CSS Edits
 * Production Testing Complete

@@ -112,7 +112,7 @@ if(!function_exists('get_ccalc_option')) {
 			
 			case 'label_charge':
 				if(isset($options['ccalc_chargelabel']) && !empty($options['ccalc_chargelabel'])) {
-					return $options['ccalc_usagelabel'];
+					return $options['ccalc_chargelabel'];
 				} else {
 					// Return default
 					return 'Charge per card ($)';
