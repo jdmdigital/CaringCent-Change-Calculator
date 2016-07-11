@@ -123,7 +123,10 @@ if(!function_exists('ccalc_changecalculator_shortcode') && !shortcode_exists('ch
 					<div class="form-group">
 						<label for="usage" class="col-sm-5 control-label">'.$label_usage.'</label>
 						<div class="col-sm-7">
-							<input type="text" class="form-control percent" id="usage" aria-describedby="usageHelp" value="'.$num_usage.'%" required/>
+							<div class="input-group">
+								<input type="number" class="form-control percent" id="usage" aria-describedby="usageHelp" value="'.$num_usage.'" required/>
+								<span class="input-group-addon">%</span>
+							</div>
 							<span id="usageHelp" class="help-block">'.$desc_usage.'</span>
 							<input type="hidden" id="usageNum" value="'.$usagepercent.'" />
 						</div>
